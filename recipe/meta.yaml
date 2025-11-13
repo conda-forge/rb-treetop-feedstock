@@ -1,6 +1,5 @@
-
 {% set name = "treetop" %}
-{% set version = "1.6.14" %}
+{% set version = "1.6.18" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: ba31d1911ce53dbc68208b9e6b421d48d16bfc99551e5efb5bc71bbc8fc7aed4
+    sha256: a3043f32f1c652aa2abdf3a3848edb2d2f69897257af2675516ac61355c183da
 
 build:
   noarch: generic
